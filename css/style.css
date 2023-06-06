@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@300&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Geologica', sans-serif;
+
+}
+body{
+    background-color: #f8f8f8    ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form{
+    margin-top: 5%;
+    margin-bottom: 3%;
+    background-image: url("/img/desenho.avif");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    background-color: rgb(233, 233, 233);
+    box-shadow: 0px 10px 31px -12px rgba(0,0,0,0.75);
+    width: 60vw;
+    height: 60vh;
+    border-radius: 40px;
+    padding: 30px;
+
+}
+input {
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+img{
+    width: 40px;
+}
+input{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    
+}
+table {
+    width: 60%;
+    height: 10vh;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 10px 31px -12px rgba(0,0,0,0.75);
+    padding: 15px
+
+}
+th {
+    border-radius: 5px;
+    padding: 5px;
+}
+button {
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: whitesmoke ;
+    
+    
+}
+
+.inputs > label{
+    margin-bottom: 20px;
+}
+.inputs{
+    margin-right: 10%;
+}
+
+button:hover {
+    background-color: bisque;
+}
+.btn {
+    margin-right: 10%;
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+i {
+    font-size: 30px;
+    color: black;
+    
+}
+tr {
+    border: 1px solid black;
+    border: 1px solid black;
+    width: 10px;
+}
+th{
+    border: 1px solid black;
+}
+td {
+    border: 1px solid black;
+    width: 10%;
+    height: 50%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
